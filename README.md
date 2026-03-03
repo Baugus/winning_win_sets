@@ -13,3 +13,21 @@ In this module is the draw_win_set() command. It is the current workhorse engine
 -  Adding reservation utility to create alienated voters,
 -  Adding optional labels optionally in latex math format,
 
+## License
+This repository is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Suggested Citation 
+If you use this package to create visuals for your projects, please include the following citation (or equivalent):
+
+Baugus, N. (2026). *winning_win_sets* (Version 1.0.0) [Computer software]. GitHub.
+
+```bibtex
+@software{baugus2026_winning_win_sets,
+	author  = {Baugus, Nathanael},
+	title   = {winning\_win\_sets},
+	year    = {2026},
+	version = {1.0.0},
+	note    = {Computer software},
+	url     = {https://github.com/Baugus/winning_win_sets}
+}
+```
