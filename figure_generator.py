@@ -393,8 +393,6 @@ def draw_win_set(voters: Sequence[Point],
 
 
 if __name__ == "__main__":
-  save_dir = Path(r"C:\Users\Baugus\OneDrive - Duke University\Projects\chilean_constitutional_process\08_presentations\PCS26\figures")
-
 
   # Figure 1: Example Win Set
   status_quo = (0, 0)
@@ -416,7 +414,7 @@ if __name__ == "__main__":
               'C',
               ]
 
-  save_path = save_dir / Path('example_winset_2D.pdf')
+  save_path = Path('example_winset_2D.pdf')
 
   fig, ax = draw_win_set(voters, 
                               status_quo=status_quo, 
