@@ -1,0 +1,22 @@
+run.py
+
+# Python bytecode/cache
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Test/cache artifacts
+.pytest_cache/
+.mypy_cache/
+
+# VS Code
+.vscode/
+
+# Spyder
+.spyproject/
+*.spydata
+*.spyderproject
